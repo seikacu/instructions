@@ -1,0 +1,10 @@
+pip freeze -список установленных пакетов pip
+venv\Scripts\activate -в Windows активация виртульного окружения в проекте
+pip install -U pip setuptools -обновить установленные библиотеки pip и setuptools
+pip install requests lxml -установка библиотек
+pip uninstalled lxml -y -удаление библиотеки
+touch main.py -Linux создать новый файл
+New-Item -ItemType file main.py -Windows создать новый файл
+pip freeze > requirements.txt -создать файл с зависимостями
+deactivate -отключить виртуальное окружение
+pip install -r requirements.txt -установка всех зависимостей из файла с зависимостями
